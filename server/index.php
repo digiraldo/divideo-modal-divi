@@ -54,14 +54,14 @@ class DiVideoModal implements DependencyInterface {
 	$video_file_src = is_array( $raw_video_file ) ? ( $raw_video_file['src'] ?? '' ) : ( is_string( $raw_video_file ) ? $raw_video_file : '' );
 	$autoplay       = $attrs['autoplay']['innerContent']['desktop']['value']       ?? 'on';
 	$trigger_type   = $attrs['triggerType']['innerContent']['desktop']['value']    ?? 'button';
-	$button_text    = $attrs['buttonText']['innerContent']['desktop']['value']     ?? __( '▶ Play Video', 'divideo-modal-divi' );
+	$button_text    = $attrs['buttonText']['innerContent']['desktop']['value']     ?? __( 'Play Video', 'divideo-modal-divi' );
 	$trigger_alt    = $attrs['triggerImageAlt']['innerContent']['desktop']['value'] ?? '';
 	$raw_img        = $attrs['triggerImageSrc']['innerContent']['desktop']['value'] ?? '';
 	$trigger_img    = is_array( $raw_img ) ? ( $raw_img['src'] ?? '' ) : ( is_string( $raw_img ) ? $raw_img : '' );
 	$trigger_img_w  = $attrs['triggerImageWidth']['innerContent']['desktop']['value'] ?? '450px';
 	$icon_style     = $attrs['iconStyle']['innerContent']['desktop']['value']      ?? 'circle_fill';
 	$icon_color     = $attrs['iconColor']['innerContent']['desktop']['value']      ?? '#ffffff';
-	$icon_size      = $attrs['iconSize']['innerContent']['desktop']['value']       ?? '80px';
+	$icon_size      = $attrs['iconSize']['innerContent']['desktop']['value']       ?? '64px';
 	$overlay_color  = $attrs['overlayColor']['innerContent']['desktop']['value']   ?? 'rgba(0,0,0,0.88)';
 	$modal_width    = $attrs['modalMaxWidth']['innerContent']['desktop']['value']  ?? '900px';
 	$show_close     = $attrs['showCloseButton']['innerContent']['desktop']['value'] ?? 'on';
@@ -108,8 +108,8 @@ class DiVideoModal implements DependencyInterface {
 
 	// ── Close button ───────────────────────────────────────
 	$close_btn = '';
-	if ( 'on' === $show_close ) {
-		$close_btn = '<button class="dvm-close" aria-label="' . esc_attr__( 'Close video', 'divideo-modal-divi' ) . '" type="button">&times;</button>';
+	if ( 'off' !== $show_close ) {
+		$close_btn = '<button class="dvm-close" aria-label="' . esc_attr__( 'Close video', 'divideo-modal-divi' ) . '" type="button" title="' . esc_attr__( 'Close', 'divideo-modal-divi' ) . '">&times;</button>';
 	}
 
 	// ── Modal HTML ─────────────────────────────────────────

@@ -88,7 +88,7 @@ const IconTrigger = ({ style, color, size }) => {
 // ── Main Edit Component ─────────────────────────────────────
 const DiVideoModalEdit = ({ attrs, elements, id, name }) => {
   const triggerType = val(attrs, 'triggerType', 'button');
-  const buttonText  = val(attrs, 'buttonText', '▶ Play Video');
+  const buttonText  = val(attrs, 'buttonText', 'Play Video');
   const imgSrc      = val(attrs, 'triggerImageSrc', null);
   const imgAlt      = val(attrs, 'triggerImageAlt', '');
   const imgWidth    = val(attrs, 'triggerImageWidth', '450px');
