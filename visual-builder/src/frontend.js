@@ -5,6 +5,11 @@ const openModal = (trigger) => {
 	const overlay = document.querySelector(`.dvm-overlay[data-dvm-uid="${uid}"]`);
 	if (!overlay) return;
 
+	// Mover al body si no está ya como hijo directo del body para romper stacking context
+	if (overlay.parentNode !== document.body) {
+		document.body.appendChild(overlay);
+	}
+
 	const container = overlay.querySelector('.dvm-video-container');
 	const embedUrl = overlay.getAttribute('data-embed-url');
 	const isLocal = overlay.getAttribute('data-is-local') === '1';
