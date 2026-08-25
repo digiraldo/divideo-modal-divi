@@ -2,6 +2,7 @@
   "name": "divideo/divideo-modal",
   "title": "DiVideo Modal",
   "titles": "DiVideo Modals",
+  "moduleIcon": "divi/module-video",
   "category": "module",
   "moduleClassName": "dvm_module",
   "moduleOrderClassName": "dvm_module",
