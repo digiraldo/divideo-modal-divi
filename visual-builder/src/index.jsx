@@ -9,14 +9,27 @@ import './frontend.css';
 const PlaySVGs = {
   circle_fill: ({ color = '#fff', size = '80px' }) => (
     <svg width={size} height={size} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="40" cy="40" r="40" fill={color} opacity="0.9"/>
+      <circle cx="40" cy="40" r="40" fill={color} opacity="0.95"/>
       <polygon points="32,24 58,40 32,56" fill="rgba(0,0,0,0.75)"/>
     </svg>
   ),
   circle_outline: ({ color = '#fff', size = '80px' }) => (
     <svg width={size} height={size} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="40" cy="40" r="38" stroke={color} strokeWidth="3"/>
+      <circle cx="40" cy="40" r="38" stroke={color} strokeWidth="3.5"/>
       <polygon points="32,24 58,40 32,56" fill={color}/>
+    </svg>
+  ),
+  double_circle: ({ color = '#fff', size = '80px' }) => (
+    <svg width={size} height={size} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="40" cy="40" r="38" stroke={color} strokeWidth="2" strokeDasharray="6 4" opacity="0.75"/>
+      <circle cx="40" cy="40" r="28" fill={color} opacity="0.95"/>
+      <polygon points="34,28 52,40 34,52" fill="rgba(0,0,0,0.8)"/>
+    </svg>
+  ),
+  glass_circle: ({ color = '#fff', size = '80px' }) => (
+    <svg width={size} height={size} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="40" cy="40" r="38" fill="rgba(255,255,255,0.18)" stroke={color} strokeWidth="3"/>
+      <polygon points="33,25 57,40 33,55" fill={color}/>
     </svg>
   ),
   play_arrow: ({ color = '#fff', size = '80px' }) => (
@@ -26,14 +39,45 @@ const PlaySVGs = {
   ),
   rounded_rect: ({ color = '#fff', size = '80px' }) => (
     <svg width={size} height={size} viewBox="0 0 90 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="1" y="1" width="88" height="62" rx="14" stroke={color} strokeWidth="3" fill="rgba(0,0,0,0.4)"/>
+      <rect x="1" y="1" width="88" height="62" rx="16" stroke={color} strokeWidth="3" fill="rgba(0,0,0,0.5)"/>
       <polygon points="36,18 62,32 36,46" fill={color}/>
+    </svg>
+  ),
+  soft_square: ({ color = '#fff', size = '80px' }) => (
+    <svg width={size} height={size} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="6" y="6" width="68" height="68" rx="20" fill={color} opacity="0.95"/>
+      <polygon points="32,24 56,40 32,56" fill="rgba(0,0,0,0.8)"/>
     </svg>
   ),
   diamond: ({ color = '#fff', size = '80px' }) => (
     <svg width={size} height={size} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="40" y="3" width="52" height="52" rx="6" transform="rotate(45 40 3)" stroke={color} strokeWidth="3"/>
+      <rect x="40" y="3" width="52" height="52" rx="6" transform="rotate(45 40 3)" stroke={color} strokeWidth="3.5"/>
       <polygon points="34,26 54,40 34,54" fill={color}/>
+    </svg>
+  ),
+  hexagon: ({ color = '#fff', size = '80px' }) => (
+    <svg width={size} height={size} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="40,3 74,22 74,58 40,77 6,58 6,22" fill="none" stroke={color} strokeWidth="3.5"/>
+      <polygon points="33,26 55,40 33,54" fill={color}/>
+    </svg>
+  ),
+  shield: ({ color = '#fff', size = '80px' }) => (
+    <svg width={size} height={size} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M40,4 L72,16 C72,52 40,76 40,76 C40,76 8,52 8,16 Z" fill="none" stroke={color} strokeWidth="3.5"/>
+      <polygon points="34,26 54,40 34,54" fill={color}/>
+    </svg>
+  ),
+  dashed_circle: ({ color = '#fff', size = '80px' }) => (
+    <svg width={size} height={size} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="40" cy="40" r="37" stroke={color} strokeWidth="3.5" strokeDasharray="8 6"/>
+      <circle cx="40" cy="40" r="26" fill={color}/>
+      <polygon points="34,29 52,40 34,51" fill="rgba(0,0,0,0.8)"/>
+    </svg>
+  ),
+  pill_modern: ({ color = '#fff', size = '80px' }) => (
+    <svg width={size} height={size} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="4" y="16" width="72" height="48" rx="24" fill={color} opacity="0.95"/>
+      <polygon points="34,27 54,40 34,53" fill="rgba(0,0,0,0.8)"/>
     </svg>
   ),
 };

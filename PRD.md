@@ -19,13 +19,20 @@ Añade un módulo premium al constructor Divi 5 (Visual Builder) que permite mos
 
 **🖱️ Tipos de Activador (Trigger):**
 1.  **🔴 Botón:** Botón de texto personalizable (Texto, Fondo, Color, Radio de bordes, Sombras).
-2.  **🖼️ Imagen con Play:** Subida de imagen (thumbnail) con texto alternativo para accesibilidad y un ícono "Play" superpuesto que reacciona al hover.
-3.  **⭕ Ícono Animado:** Ícono SVG de reproducción puro. Incluye 5 variantes nativas:
-    *   *circle_fill* (Círculo relleno por defecto)
-    *   *circle_outline* (Círculo contorno)
-    *   *play_arrow* (Flecha simple)
+2.  **🖼️ Imagen con Play:** Subida de imagen (thumbnail) con texto alternativo para accesibilidad, control de ancho y opacidad/transparencia (0-100%), y un ícono "Play" superpuesto que reacciona al hover.
+3.  **⭕ Ícono Animado:** Ícono SVG de reproducción puro con 12 variantes vectoriales:
+    *   *circle_fill* (Círculo relleno clásico por defecto)
+    *   *circle_outline* (Círculo contorno con línea)
+    *   *double_circle* (Doble círculo concéntrico moderno)
+    *   *glass_circle* (Efecto cristal translúcido / Glassmorphism)
+    *   *play_arrow* (Flecha simple minimalista)
     *   *rounded_rect* (Estilo YouTube)
-    *   *diamond* (Rombo / Escudo)
+    *   *soft_square* (Cuadrado redondeado estilo App)
+    *   *diamond* (Rombo geométrico)
+    *   *hexagon* (Hexágono moderno)
+    *   *shield* (Escudo / Insignia)
+    *   *dashed_circle* (Círculo con anillo punteado)
+    *   *pill_modern* (Cápsula / Botón flotante)
 
 **🎛️ Opciones de la Ventana Modal:**
 *   **Fondo del Modal (Overlay):** Control de color y opacidad (por defecto: `rgba(0,0,0,0.88)`).

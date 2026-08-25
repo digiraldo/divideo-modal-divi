@@ -470,19 +470,40 @@
               "props": {
                 "options": {
                   "circle_fill": {
-                    "label": "Círculo Relleno"
+                    "label": "Círculo Relleno (Clásico)"
                   },
                   "circle_outline": {
-                    "label": "Círculo Contorno"
+                    "label": "Círculo Contorno (Línea)"
+                  },
+                  "double_circle": {
+                    "label": "Doble Círculo Concéntrico"
+                  },
+                  "glass_circle": {
+                    "label": "Círculo Efecto Cristal (Glass)"
                   },
                   "play_arrow": {
-                    "label": "Flecha Simple"
+                    "label": "Flecha Simple (Minimal)"
                   },
                   "rounded_rect": {
-                    "label": "Rectángulo (YouTube)"
+                    "label": "Rectángulo Estilo YouTube"
+                  },
+                  "soft_square": {
+                    "label": "Cuadrado Redondeado (App)"
                   },
                   "diamond": {
-                    "label": "Rombo / Escudo"
+                    "label": "Rombo Geométrico"
+                  },
+                  "hexagon": {
+                    "label": "Hexágono Moderno"
+                  },
+                  "shield": {
+                    "label": "Escudo / Insignia"
+                  },
+                  "dashed_circle": {
+                    "label": "Círculo con Anillo Punteado"
+                  },
+                  "pill_modern": {
+                    "label": "Cápsula / Botón Flotante"
                   }
                 }
               }

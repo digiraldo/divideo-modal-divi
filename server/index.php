@@ -199,19 +199,40 @@ function divideo_modal_get_play_svg( $style, $color = '#ffffff', $size = '80px' 
 
 	switch ( $style ) {
 		case 'circle_outline':
-			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"40\" cy=\"40\" r=\"38\" stroke=\"{$c}\" stroke-width=\"3\"/><polygon points=\"32,24 58,40 32,56\" fill=\"{$c}\"/></svg>";
+			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"40\" cy=\"40\" r=\"38\" stroke=\"{$c}\" stroke-width=\"3.5\"/><polygon points=\"32,24 58,40 32,56\" fill=\"{$c}\"/></svg>";
+
+		case 'double_circle':
+			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"40\" cy=\"40\" r=\"38\" stroke=\"{$c}\" stroke-width=\"2\" stroke-dasharray=\"6 4\" opacity=\"0.75\"/><circle cx=\"40\" cy=\"40\" r=\"28\" fill=\"{$c}\" opacity=\"0.95\"/><polygon points=\"34,28 52,40 34,52\" fill=\"rgba(0,0,0,0.8)\"/></svg>";
+
+		case 'glass_circle':
+			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"40\" cy=\"40\" r=\"38\" fill=\"rgba(255,255,255,0.18)\" stroke=\"{$c}\" stroke-width=\"3\"/><polygon points=\"33,25 57,40 33,55\" fill=\"{$c}\"/></svg>";
 
 		case 'play_arrow':
 			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"18,8 68,40 18,72\" fill=\"{$c}\"/></svg>";
 
 		case 'rounded_rect':
-			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 90 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"88\" height=\"62\" rx=\"14\" stroke=\"{$c}\" stroke-width=\"3\" fill=\"rgba(0,0,0,0.4)\"/><polygon points=\"36,18 62,32 36,46\" fill=\"{$c}\"/></svg>";
+			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 90 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"88\" height=\"62\" rx=\"16\" stroke=\"{$c}\" stroke-width=\"3\" fill=\"rgba(0,0,0,0.5)\"/><polygon points=\"36,18 62,32 36,46\" fill=\"{$c}\"/></svg>";
+
+		case 'soft_square':
+			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"6\" width=\"68\" height=\"68\" rx=\"20\" fill=\"{$c}\" opacity=\"0.95\"/><polygon points=\"32,24 56,40 32,56\" fill=\"rgba(0,0,0,0.8)\"/></svg>";
 
 		case 'diamond':
-			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"3\" width=\"52\" height=\"52\" rx=\"6\" transform=\"rotate(45 40 3)\" stroke=\"{$c}\" stroke-width=\"3\"/><polygon points=\"34,26 54,40 34,54\" fill=\"{$c}\"/></svg>";
+			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"3\" width=\"52\" height=\"52\" rx=\"6\" transform=\"rotate(45 40 3)\" stroke=\"{$c}\" stroke-width=\"3.5\"/><polygon points=\"34,26 54,40 34,54\" fill=\"{$c}\"/></svg>";
+
+		case 'hexagon':
+			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,3 74,22 74,58 40,77 6,58 6,22\" fill=\"none\" stroke=\"{$c}\" stroke-width=\"3.5\"/><polygon points=\"33,26 55,40 33,54\" fill=\"{$c}\"/></svg>";
+
+		case 'shield':
+			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M40,4 L72,16 C72,52 40,76 40,76 C40,76 8,52 8,16 Z\" fill=\"none\" stroke=\"{$c}\" stroke-width=\"3.5\"/><polygon points=\"34,26 54,40 34,54\" fill=\"{$c}\"/></svg>";
+
+		case 'dashed_circle':
+			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"40\" cy=\"40\" r=\"37\" stroke=\"{$c}\" stroke-width=\"3.5\" stroke-dasharray=\"8 6\"/><circle cx=\"40\" cy=\"40\" r=\"26\" fill=\"{$c}\"/><polygon points=\"34,29 52,40 34,51\" fill=\"rgba(0,0,0,0.8)\"/></svg>";
+
+		case 'pill_modern':
+			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4\" y=\"16\" width=\"72\" height=\"48\" rx=\"24\" fill=\"{$c}\" opacity=\"0.95\"/><polygon points=\"34,27 54,40 34,53\" fill=\"rgba(0,0,0,0.8)\"/></svg>";
 
 		case 'circle_fill':
 		default:
-			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"40\" cy=\"40\" r=\"40\" fill=\"{$c}\" opacity=\"0.9\"/><polygon points=\"32,24 58,40 32,56\" fill=\"rgba(0,0,0,0.75)\"/></svg>";
+			return "<svg width=\"{$s}\" height=\"{$s}\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"40\" cy=\"40\" r=\"40\" fill=\"{$c}\" opacity=\"0.95\"/><polygon points=\"32,24 58,40 32,56\" fill=\"rgba(0,0,0,0.75)\"/></svg>";
 	}
 }
