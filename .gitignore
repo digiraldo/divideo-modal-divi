@@ -1,0 +1,39 @@
+# Node dependencies
+node_modules/
+visual-builder/node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build temporary logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary / Scratch / Test files
+beginner.*
+tutorial.*
+test*.php
+fix_*.js
+convert.php
+check_*.php
+read.php
+replace.js
+download.php
+repo.json
+*.tmp
+*.bak
