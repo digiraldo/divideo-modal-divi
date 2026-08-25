@@ -49,12 +49,12 @@ const ButtonTrigger = ({ text }) => (
   </div>
 );
 
-const ImageTrigger = ({ src, alt }) => {
+const ImageTrigger = ({ src, alt, width }) => {
   const imageUrl = typeof src === 'object' && src !== null ? (src.src || '') : (src || '');
   return (
-    <div className="dvm-trigger dvm-trigger--image dvm-vb-preview">
+    <div className="dvm-trigger dvm-trigger--image dvm-vb-preview" style={{ maxWidth: width || '450px', width: '100%' }}>
       {imageUrl
-        ? <img src={imageUrl} alt={alt || ''} style={{ maxWidth: '100%', display: 'block' }} />
+        ? <img src={imageUrl} alt={alt || ''} style={{ width: '100%', display: 'block' }} />
         : <div className="dvm-img-placeholder">🖼 Imagen del Activador</div>
       }
       <span className="dvm-play-overlay">
@@ -79,13 +79,14 @@ const DiVideoModalEdit = ({ attrs, elements, id, name }) => {
   const buttonText  = val(attrs, 'buttonText', '▶ Play Video');
   const imgSrc      = val(attrs, 'triggerImageSrc', null);
   const imgAlt      = val(attrs, 'triggerImageAlt', '');
+  const imgWidth    = val(attrs, 'triggerImageWidth', '450px');
   const iconStyle   = val(attrs, 'iconStyle', 'circle_fill');
   const iconColor   = val(attrs, 'iconColor', '#ffffff');
   const iconSize    = val(attrs, 'iconSize', '80px');
 
   const renderTrigger = () => {
     switch (triggerType) {
-      case 'image': return <ImageTrigger src={imgSrc} alt={imgAlt} />;
+      case 'image': return <ImageTrigger src={imgSrc} alt={imgAlt} width={imgWidth} />;
       case 'icon':  return <IconTrigger style={iconStyle} color={iconColor} size={iconSize} />;
       default:      return <ButtonTrigger text={buttonText} />;
     }
