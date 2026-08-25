@@ -1,0 +1,1350 @@
+{
+  "sha": "d2d92fd824549a8bad18aa5ee4d18084bafc99fb",
+  "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/d2d92fd824549a8bad18aa5ee4d18084bafc99fb",
+  "tree": [
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b412aec0e9c19374c08c1370b2b0764dbcc9e250",
+      "size": 101,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/b412aec0e9c19374c08c1370b2b0764dbcc9e250"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "178239eac9027adb4c796af5ca17cfa4e2e7971f",
+      "size": 166,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/178239eac9027adb4c796af5ca17cfa4e2e7971f"
+    },
+    {
+      "path": ".npmrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fd021952d5a1d74ce03afc79643268a0480adfb",
+      "size": 18,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/4fd021952d5a1d74ce03afc79643268a0480adfb"
+    },
+    {
+      "path": ".storybook",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb349f00b39dbe137953ae84ad55114e9420a7e7",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/eb349f00b39dbe137953ae84ad55114e9420a7e7"
+    },
+    {
+      "path": ".storybook/main.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5100019488d8b7e6ea2c07714a78a5d4f8bc48b6",
+      "size": 8011,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/5100019488d8b7e6ea2c07714a78a5d4f8bc48b6"
+    },
+    {
+      "path": ".storybook/preview-head.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d18a28957415013c60f319a04ea21b09e06d38d",
+      "size": 105445,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/8d18a28957415013c60f319a04ea21b09e06d38d"
+    },
+    {
+      "path": ".storybook/preview.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3a07a87ad90aba768b45b03aba6978051c03129",
+      "size": 1285,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/f3a07a87ad90aba768b45b03aba6978051c03129"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb6e777b2b0dd319f1668a8a1c0624f15c237399",
+      "size": 8488,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/fb6e777b2b0dd319f1668a8a1c0624f15c237399"
+    },
+    {
+      "path": "composer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1076b2efdacff7425719f78ec5a9abd3e377a63",
+      "size": 166,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/a1076b2efdacff7425719f78ec5a9abd3e377a63"
+    },
+    {
+      "path": "composer.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41f708e343c006b9771431f4c9ca02d5b7bee111",
+      "size": 571,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/41f708e343c006b9771431f4c9ca02d5b7bee111"
+    },
+    {
+      "path": "d5-extension-example-modules.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b4a54ab96292046311b74688f8a71c25d6bd84d",
+      "size": 3927,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/4b4a54ab96292046311b74688f8a71c25d6bd84d"
+    },
+    {
+      "path": "divi-4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a3e93fafab27b382d8b60a8237476b434d4dcf6",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/7a3e93fafab27b382d8b60a8237476b434d4dcf6"
+    },
+    {
+      "path": "divi-4/build",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "75ca33bcf725bd933c7857c873143ba429545d9e",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/75ca33bcf725bd933c7857c873143ba429545d9e"
+    },
+    {
+      "path": "divi-4/build/d5-extension-example-modules-divi4.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cb7345aba96e1d949bdca9090dab4b5dee12243",
+      "size": 1076,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/4cb7345aba96e1d949bdca9090dab4b5dee12243"
+    },
+    {
+      "path": "divi-4/modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a32cbe8567786e15a2a6a27e185620dabcfdba59",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/a32cbe8567786e15a2a6a27e185620dabcfdba59"
+    },
+    {
+      "path": "divi-4/modules/Divi4Module",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e0da10ec606053cd6d74920a4a206f0fa189227",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/5e0da10ec606053cd6d74920a4a206f0fa189227"
+    },
+    {
+      "path": "divi-4/modules/Divi4Module/Divi4Module.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec53498cfde0479b796d26754bc8f21cd14a329a",
+      "size": 4426,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/ec53498cfde0479b796d26754bc8f21cd14a329a"
+    },
+    {
+      "path": "divi-4/modules/Divi4OnlyModule",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "585bd2540e776e89e444c500381bb2d6cd02e773",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/585bd2540e776e89e444c500381bb2d6cd02e773"
+    },
+    {
+      "path": "divi-4/modules/Divi4OnlyModule/Divi4OnlyModule.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e5d0b8b7080fb5ceddf6e01aaff1aaa706180ec",
+      "size": 4261,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/5e5d0b8b7080fb5ceddf6e01aaff1aaa706180ec"
+    },
+    {
+      "path": "divi-4/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c3a9e11f7367567dad496ecf8d209e2b9391a34",
+      "size": 163566,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/3c3a9e11f7367567dad496ecf8d209e2b9391a34"
+    },
+    {
+      "path": "divi-4/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51e3889db954bcee7afb52ba90f0cac73461915e",
+      "size": 747,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/51e3889db954bcee7afb52ba90f0cac73461915e"
+    },
+    {
+      "path": "divi-4/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af5ed1d48df6104e40631ed86f11ffd23190999e",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/af5ed1d48df6104e40631ed86f11ffd23190999e"
+    },
+    {
+      "path": "divi-4/src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ada3cbc9dde5af06612808b0b64f39a5da7b846a",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/ada3cbc9dde5af06612808b0b64f39a5da7b846a"
+    },
+    {
+      "path": "divi-4/src/components/divi4-module",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c530880310bafe13064892921de12279a0fb7997",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/c530880310bafe13064892921de12279a0fb7997"
+    },
+    {
+      "path": "divi-4/src/components/divi4-module/index.jsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4435aa358480077b753caacc57c6734606bf227f",
+      "size": 518,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/4435aa358480077b753caacc57c6734606bf227f"
+    },
+    {
+      "path": "divi-4/src/components/divi4-only-module",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c113f784fde676cec344f5b08492d9898cb32f5c",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/c113f784fde676cec344f5b08492d9898cb32f5c"
+    },
+    {
+      "path": "divi-4/src/components/divi4-only-module/index.jsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec96d64940ee60631512d17f077be80203b7bab8",
+      "size": 489,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/ec96d64940ee60631512d17f077be80203b7bab8"
+    },
+    {
+      "path": "divi-4/src/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd8eb698682c5e7a8de848e278f0178bcb9dc750",
+      "size": 393,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/bd8eb698682c5e7a8de848e278f0178bcb9dc750"
+    },
+    {
+      "path": "divi-4/webpack.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a63b121f7c55af7f3f81b0574a8891233e647fb",
+      "size": 3754,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/5a63b121f7c55af7f3f81b0574a8891233e647fb"
+    },
+    {
+      "path": "gulpfile.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3384da5cc2c78f8cf44fd781ed32a049f7f27f52",
+      "size": 812,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/3384da5cc2c78f8cf44fd781ed32a049f7f27f52"
+    },
+    {
+      "path": "modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6aa7329c85ea120c4c50e09c489f50aa0c9ee035",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/6aa7329c85ea120c4c50e09c489f50aa0c9ee035"
+    },
+    {
+      "path": "modules/ChildModule",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e277e5ba130d76caea230f311fb350932bcee5a3",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/e277e5ba130d76caea230f311fb350932bcee5a3"
+    },
+    {
+      "path": "modules/ChildModule/ChildModule.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f5815ed57c34431a5f1b2cccae6ce55f0b9c120",
+      "size": 1169,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/8f5815ed57c34431a5f1b2cccae6ce55f0b9c120"
+    },
+    {
+      "path": "modules/ChildModule/ChildModuleTrait",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "709bf254c96c220ed3f930b554866bf5a848e4b8",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/709bf254c96c220ed3f930b554866bf5a848e4b8"
+    },
+    {
+      "path": "modules/ChildModule/ChildModuleTrait/CustomCssTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb16feaee58d12d74f799ba94880184fea4984ed",
+      "size": 692,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/bb16feaee58d12d74f799ba94880184fea4984ed"
+    },
+    {
+      "path": "modules/ChildModule/ChildModuleTrait/ModuleClassnamesTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f0f27cfbe05f240af1fdb0fe849ca34274a2d3e",
+      "size": 1177,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/8f0f27cfbe05f240af1fdb0fe849ca34274a2d3e"
+    },
+    {
+      "path": "modules/ChildModule/ChildModuleTrait/ModuleScriptDataTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56ec1bdb65798c0ae749ff46f479677d2b4c8e17",
+      "size": 1556,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/56ec1bdb65798c0ae749ff46f479677d2b4c8e17"
+    },
+    {
+      "path": "modules/ChildModule/ChildModuleTrait/ModuleStylesTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f937def0423c0e42e0383b967c13a1f0f459229d",
+      "size": 4979,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/f937def0423c0e42e0383b967c13a1f0f459229d"
+    },
+    {
+      "path": "modules/ChildModule/ChildModuleTrait/RenderCallbackTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a02798f9dd5dca81314ef0d9e3edd1423e7cadc",
+      "size": 3792,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/8a02798f9dd5dca81314ef0d9e3edd1423e7cadc"
+    },
+    {
+      "path": "modules/ChildModule/ChildModuleTrait/StyleDeclarationTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fc557be8e6742d3da9a410b67e656799ea02f04",
+      "size": 1543,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/2fc557be8e6742d3da9a410b67e656799ea02f04"
+    },
+    {
+      "path": "modules/D4Module",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "76a7a75a79d321235dd16de1476b4f8098282da2",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/76a7a75a79d321235dd16de1476b4f8098282da2"
+    },
+    {
+      "path": "modules/D4Module/D4Module.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e837ef0e914bf023a2bf96272e6518754185ec78",
+      "size": 1187,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/e837ef0e914bf023a2bf96272e6518754185ec78"
+    },
+    {
+      "path": "modules/D4Module/D4ModuleTrait",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa2d81fab4fa1d274f31afc11d1a96d4e76db51e",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/fa2d81fab4fa1d274f31afc11d1a96d4e76db51e"
+    },
+    {
+      "path": "modules/D4Module/D4ModuleTrait/CustomCssTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6425b94271ae9ea33fc14e772db0ac4136093eb",
+      "size": 667,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/c6425b94271ae9ea33fc14e772db0ac4136093eb"
+    },
+    {
+      "path": "modules/D4Module/D4ModuleTrait/ModuleClassnamesTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f087b0827d585fc9be2073d036753617a98dbae9",
+      "size": 1152,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/f087b0827d585fc9be2073d036753617a98dbae9"
+    },
+    {
+      "path": "modules/D4Module/D4ModuleTrait/ModuleScriptDataTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c24573f377fcf9547ea8e19c7f986c440c47973a",
+      "size": 1290,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/c24573f377fcf9547ea8e19c7f986c440c47973a"
+    },
+    {
+      "path": "modules/D4Module/D4ModuleTrait/ModuleStylesTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2467913fa5a695bdf63bf718ed5a36db4ce2c87",
+      "size": 4397,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/b2467913fa5a695bdf63bf718ed5a36db4ce2c87"
+    },
+    {
+      "path": "modules/D4Module/D4ModuleTrait/RenderCallbackTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a372287f7a7d01924b79258521ed692bdf75f62",
+      "size": 3088,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/1a372287f7a7d01924b79258521ed692bdf75f62"
+    },
+    {
+      "path": "modules/DynamicModule",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "243222fa786e2c58599538e56a1e7a709e52ade0",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/243222fa786e2c58599538e56a1e7a709e52ade0"
+    },
+    {
+      "path": "modules/DynamicModule/DynamicModule.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93ff523579fcdc7329a9ad824fef4f1469926b81",
+      "size": 1239,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/93ff523579fcdc7329a9ad824fef4f1469926b81"
+    },
+    {
+      "path": "modules/DynamicModule/DynamicModuleTrait",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23a27c597f76c3d6e54b23e6cd6949cf039fd8f3",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/23a27c597f76c3d6e54b23e6cd6949cf039fd8f3"
+    },
+    {
+      "path": "modules/DynamicModule/DynamicModuleTrait/ModuleClassnamesTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4fddbd5faf32a7b84a2f68adc93f8bac6c2ee24",
+      "size": 1182,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/b4fddbd5faf32a7b84a2f68adc93f8bac6c2ee24"
+    },
+    {
+      "path": "modules/DynamicModule/DynamicModuleTrait/ModuleScriptDataTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e99c02a0af763c4888efb99887613fb5f614e854",
+      "size": 1374,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/e99c02a0af763c4888efb99887613fb5f614e854"
+    },
+    {
+      "path": "modules/DynamicModule/DynamicModuleTrait/ModuleStylesTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6b789aa9dac013cb374f88438a2efadae3b35aa",
+      "size": 3444,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/e6b789aa9dac013cb374f88438a2efadae3b35aa"
+    },
+    {
+      "path": "modules/DynamicModule/DynamicModuleTrait/RenderCallbackTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60a7fb63abe8049c29fca069ff02fc7eab21402a",
+      "size": 5356,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/60a7fb63abe8049c29fca069ff02fc7eab21402a"
+    },
+    {
+      "path": "modules/Modules.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "350f226783ca58c529888222b9f2a83d0dde609b",
+      "size": 789,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/350f226783ca58c529888222b9f2a83d0dde609b"
+    },
+    {
+      "path": "modules/ParentModule",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1eeb2542f26e14d97cb02b91cddf29f868836f5d",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/1eeb2542f26e14d97cb02b91cddf29f868836f5d"
+    },
+    {
+      "path": "modules/ParentModule/ParentModule.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ce942d03d09c29a5c9394ca02026ddda598478b",
+      "size": 1180,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/3ce942d03d09c29a5c9394ca02026ddda598478b"
+    },
+    {
+      "path": "modules/ParentModule/ParentModuleTrait",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "85444eb44f645e50e8073888d3a163b4a140e41b",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/85444eb44f645e50e8073888d3a163b4a140e41b"
+    },
+    {
+      "path": "modules/ParentModule/ParentModuleTrait/CustomCssTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3785f3b63150d4d247b19b6d2a8b1ec5d461b56f",
+      "size": 691,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/3785f3b63150d4d247b19b6d2a8b1ec5d461b56f"
+    },
+    {
+      "path": "modules/ParentModule/ParentModuleTrait/ModuleClassnamesTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc1709f79a17f268c1b4f148341a2c2b51f05e9e",
+      "size": 1176,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/dc1709f79a17f268c1b4f148341a2c2b51f05e9e"
+    },
+    {
+      "path": "modules/ParentModule/ParentModuleTrait/ModuleScriptDataTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "476a0b8c377d046a8157fe3d7961a00373de27f8",
+      "size": 1353,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/476a0b8c377d046a8157fe3d7961a00373de27f8"
+    },
+    {
+      "path": "modules/ParentModule/ParentModuleTrait/ModuleStylesTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45b4339514b92fd079a4a02780a551cd05f551c0",
+      "size": 4395,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/45b4339514b92fd079a4a02780a551cd05f551c0"
+    },
+    {
+      "path": "modules/ParentModule/ParentModuleTrait/RenderCallbackTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "126ea0b4a925727cf44942c84d2c3254640faaeb",
+      "size": 2772,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/126ea0b4a925727cf44942c84d2c3254640faaeb"
+    },
+    {
+      "path": "modules/StaticModule",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "030362e6fb5e956528660989b62f3216492d1bb3",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/030362e6fb5e956528660989b62f3216492d1bb3"
+    },
+    {
+      "path": "modules/StaticModule/StaticModule.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba450a6e26a0b50024e058f62385591f79f024cd",
+      "size": 1314,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/ba450a6e26a0b50024e058f62385591f79f024cd"
+    },
+    {
+      "path": "modules/StaticModule/StaticModuleTrait",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1df9172fe4be7edbe35e2a43c9f29ae39be077b8",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/1df9172fe4be7edbe35e2a43c9f29ae39be077b8"
+    },
+    {
+      "path": "modules/StaticModule/StaticModuleTrait/CustomCssTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7cd59afcca276551b4f8c363db491e86d72bc12",
+      "size": 691,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/f7cd59afcca276551b4f8c363db491e86d72bc12"
+    },
+    {
+      "path": "modules/StaticModule/StaticModuleTrait/ModuleClassnamesTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d6607cf5107c0748fc8dbff9592d278b6ebcc8b",
+      "size": 1176,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/7d6607cf5107c0748fc8dbff9592d278b6ebcc8b"
+    },
+    {
+      "path": "modules/StaticModule/StaticModuleTrait/ModuleScriptDataTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "732337cce87af228d7ffcb17853edd2d3eba0c36",
+      "size": 2108,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/732337cce87af228d7ffcb17853edd2d3eba0c36"
+    },
+    {
+      "path": "modules/StaticModule/StaticModuleTrait/ModuleStylesTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b17c26508b2a6b5257d6de3cc1116189d6c038f3",
+      "size": 4479,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/b17c26508b2a6b5257d6de3cc1116189d6c038f3"
+    },
+    {
+      "path": "modules/StaticModule/StaticModuleTrait/RenderCallbackTrait.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb6efbf8a708b6d7fd07b8402cfa4b0f5bfc1568",
+      "size": 4165,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/cb6efbf8a708b6d7fd07b8402cfa4b0f5bfc1568"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3300775bb5b0796d98c2cb389f77a328cf4908eb",
+      "size": 1008581,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/3300775bb5b0796d98c2cb389f77a328cf4908eb"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6f003a61276b703053e16caecabe8db9955834c",
+      "size": 4700,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/d6f003a61276b703053e16caecabe8db9955834c"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50f3d07f1a9d05b6a77f702a7fe11e7f4a3f6e39",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/50f3d07f1a9d05b6a77f702a7fe11e7f4a3f6e39"
+    },
+    {
+      "path": "scripts/bundle.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baeafc825d5cbc64f9d9be9db0c7106e54e7dd7e",
+      "size": 148061,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/baeafc825d5cbc64f9d9be9db0c7106e54e7dd7e"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b5ac53bec27f47fd3b39a58c5c6652f11d31fc7",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/2b5ac53bec27f47fd3b39a58c5c6652f11d31fc7"
+    },
+    {
+      "path": "src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e41778f6d878b62350dd99abb0f68f04315ae05a",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/e41778f6d878b62350dd99abb0f68f04315ae05a"
+    },
+    {
+      "path": "src/components/child-module",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8df18e5685dff4b0bfbed1fc04b167a7763165ec",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/8df18e5685dff4b0bfbed1fc04b167a7763165ec"
+    },
+    {
+      "path": "src/components/child-module/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a57fe9da1cd7b3e444af5e386abb7d5b2a7d424b",
+      "size": 762,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/a57fe9da1cd7b3e444af5e386abb7d5b2a7d424b"
+    },
+    {
+      "path": "src/components/child-module/custom-css.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a14845fca6d02faf379c22b93216221f4433d2a",
+      "size": 685,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/9a14845fca6d02faf379c22b93216221f4433d2a"
+    },
+    {
+      "path": "src/components/child-module/edit.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4650eb8a946073a536a1fc7d32fe931c1b02dbe",
+      "size": 2124,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/c4650eb8a946073a536a1fc7d32fe931c1b02dbe"
+    },
+    {
+      "path": "src/components/child-module/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ea3adefb00818e487d30b381ee29ef10d3de2a7",
+      "size": 896,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/4ea3adefb00818e487d30b381ee29ef10d3de2a7"
+    },
+    {
+      "path": "src/components/child-module/module-classnames.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f780d65cf51b5147031b67f72a273af609ed8681",
+      "size": 527,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/f780d65cf51b5147031b67f72a273af609ed8681"
+    },
+    {
+      "path": "src/components/child-module/module.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a7d241139797f63dc813e03f409c742877791f9",
+      "size": 7210,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/4a7d241139797f63dc813e03f409c742877791f9"
+    },
+    {
+      "path": "src/components/child-module/module.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37853a0bfcb1c09c83430f559424d89372dc0b15",
+      "size": 438,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/37853a0bfcb1c09c83430f559424d89372dc0b15"
+    },
+    {
+      "path": "src/components/child-module/placeholder-content.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d063b91f69c8a57b74aac16ee70e767fda9db44",
+      "size": 424,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/3d063b91f69c8a57b74aac16ee70e767fda9db44"
+    },
+    {
+      "path": "src/components/child-module/settings-content.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d58c6c05fc6cfc620c970467d8e46fa9af3a214a",
+      "size": 1191,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/d58c6c05fc6cfc620c970467d8e46fa9af3a214a"
+    },
+    {
+      "path": "src/components/child-module/settings-design.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68563c997ae44c7d239932aa8d65425adcd6b46b",
+      "size": 2838,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/68563c997ae44c7d239932aa8d65425adcd6b46b"
+    },
+    {
+      "path": "src/components/child-module/style-declarations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09ceb2877663c9b2a78126f5ecddccb24adddeb7",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/09ceb2877663c9b2a78126f5ecddccb24adddeb7"
+    },
+    {
+      "path": "src/components/child-module/style-declarations/icon-font",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e349f32d36d1c1aa5c166565575642477725a1dc",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/e349f32d36d1c1aa5c166565575642477725a1dc"
+    },
+    {
+      "path": "src/components/child-module/style-declarations/icon-font/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b363686c5191839a2907afb879a9b56fa7901bf2",
+      "size": 1001,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/b363686c5191839a2907afb879a9b56fa7901bf2"
+    },
+    {
+      "path": "src/components/child-module/style-declarations/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1371cb70ac21b624530fd695ce158713255eb74b",
+      "size": 51,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/1371cb70ac21b624530fd695ce158713255eb74b"
+    },
+    {
+      "path": "src/components/child-module/styles.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "886e46e1ab6384c06bc8a50691905e8e5dee1644",
+      "size": 2834,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/886e46e1ab6384c06bc8a50691905e8e5dee1644"
+    },
+    {
+      "path": "src/components/child-module/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b1236446dc92a29bd41216b3faa9b118908d4e1",
+      "size": 1678,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/5b1236446dc92a29bd41216b3faa9b118908d4e1"
+    },
+    {
+      "path": "src/components/d4-module",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0809ed70092db65183b212bdb3dcab4eb7f185d5",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/0809ed70092db65183b212bdb3dcab4eb7f185d5"
+    },
+    {
+      "path": "src/components/d4-module/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bde8e57c523d176cc4d2c89765b61c0cfa4d95c",
+      "size": 558,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/7bde8e57c523d176cc4d2c89765b61c0cfa4d95c"
+    },
+    {
+      "path": "src/components/d4-module/conversion-outline.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7e0a4865861385d4be3bb8c4fef50685b87697a",
+      "size": 1836,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/e7e0a4865861385d4be3bb8c4fef50685b87697a"
+    },
+    {
+      "path": "src/components/d4-module/conversion-outline.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c803647bbb87283ce9029724670ea833075a39a",
+      "size": 2108,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/7c803647bbb87283ce9029724670ea833075a39a"
+    },
+    {
+      "path": "src/components/d4-module/custom-css.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d250cafc67de6140ce44785d7d089e5865d205fa",
+      "size": 472,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/d250cafc67de6140ce44785d7d089e5865d205fa"
+    },
+    {
+      "path": "src/components/d4-module/edit.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9b04de2b14e1828bd7760541a6d5e49e6c2eb8f",
+      "size": 1333,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/a9b04de2b14e1828bd7760541a6d5e49e6c2eb8f"
+    },
+    {
+      "path": "src/components/d4-module/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2347f21dedaba9ba7b1930768ee67f1c37f0c2d",
+      "size": 648,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/d2347f21dedaba9ba7b1930768ee67f1c37f0c2d"
+    },
+    {
+      "path": "src/components/d4-module/module-classnames.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51266b5d4c488f984b74cd43a814202ae8781c8d",
+      "size": 497,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/51266b5d4c488f984b74cd43a814202ae8781c8d"
+    },
+    {
+      "path": "src/components/d4-module/module-script-data.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a22b1ebc972ea48f6ea14e84073d4c9842306d09",
+      "size": 537,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/a22b1ebc972ea48f6ea14e84073d4c9842306d09"
+    },
+    {
+      "path": "src/components/d4-module/module.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5080078c70c8a3960fd421964125d956e34a772c",
+      "size": 3846,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/5080078c70c8a3960fd421964125d956e34a772c"
+    },
+    {
+      "path": "src/components/d4-module/placeholder-content.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bff38682aafaa09fbe71e6f30cc23081377735c3",
+      "size": 420,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/bff38682aafaa09fbe71e6f30cc23081377735c3"
+    },
+    {
+      "path": "src/components/d4-module/styles.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e65b2f358c034e02a03db040d13472146ede477",
+      "size": 1811,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/1e65b2f358c034e02a03db040d13472146ede477"
+    },
+    {
+      "path": "src/components/d4-module/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dbe09f61df7cc5efc70a1c0e467ba8da2939602",
+      "size": 1325,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/9dbe09f61df7cc5efc70a1c0e467ba8da2939602"
+    },
+    {
+      "path": "src/components/dynamic-module",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6cbf7a5d2bed43ebca52d159876d846bdd713e0",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/b6cbf7a5d2bed43ebca52d159876d846bdd713e0"
+    },
+    {
+      "path": "src/components/dynamic-module/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e86c7dae422e5ac4a1015930b574aacc0e395a5a",
+      "size": 896,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/e86c7dae422e5ac4a1015930b574aacc0e395a5a"
+    },
+    {
+      "path": "src/components/dynamic-module/edit.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40cc24595aa127a4db2dfb0c62eda49c8202392d",
+      "size": 3449,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/40cc24595aa127a4db2dfb0c62eda49c8202392d"
+    },
+    {
+      "path": "src/components/dynamic-module/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b9b09b3b13af8615e5d3dfbbf3e315115ff3377",
+      "size": 582,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/8b9b09b3b13af8615e5d3dfbbf3e315115ff3377"
+    },
+    {
+      "path": "src/components/dynamic-module/module-classnames.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7582d6811a784b703d708373ac814dd03873714",
+      "size": 512,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/a7582d6811a784b703d708373ac814dd03873714"
+    },
+    {
+      "path": "src/components/dynamic-module/module-script-data.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29f5ef1afe7243b8b94bea4a021382d63c4a2e76",
+      "size": 553,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/29f5ef1afe7243b8b94bea4a021382d63c4a2e76"
+    },
+    {
+      "path": "src/components/dynamic-module/module.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "819cc0c16d58e557548e49477e489143472e2507",
+      "size": 4790,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/819cc0c16d58e557548e49477e489143472e2507"
+    },
+    {
+      "path": "src/components/dynamic-module/module.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b1f6d44a09d44f7ddfd2450fe6455d634b9cb98",
+      "size": 292,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/9b1f6d44a09d44f7ddfd2450fe6455d634b9cb98"
+    },
+    {
+      "path": "src/components/dynamic-module/placeholder-content.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16c0f27a6463136eb92a2a81bed3989500e23590",
+      "size": 324,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/16c0f27a6463136eb92a2a81bed3989500e23590"
+    },
+    {
+      "path": "src/components/dynamic-module/styles.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c15cee39b5dbe30012be80d142128c0dd41d6722",
+      "size": 1209,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/c15cee39b5dbe30012be80d142128c0dd41d6722"
+    },
+    {
+      "path": "src/components/dynamic-module/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "137f84c667d477ef030dafbbcf6685d8db51706d",
+      "size": 1123,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/137f84c667d477ef030dafbbcf6685d8db51706d"
+    },
+    {
+      "path": "src/components/parent-module",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ddcf68850048fa70d24ff9e6512878b219e3f2d",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/1ddcf68850048fa70d24ff9e6512878b219e3f2d"
+    },
+    {
+      "path": "src/components/parent-module/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "394abb286806b41a3e742358d13a955bb084331a",
+      "size": 998,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/394abb286806b41a3e742358d13a955bb084331a"
+    },
+    {
+      "path": "src/components/parent-module/custom-css.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a14845fca6d02faf379c22b93216221f4433d2a",
+      "size": 685,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/9a14845fca6d02faf379c22b93216221f4433d2a"
+    },
+    {
+      "path": "src/components/parent-module/edit.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa16497d95993253aa83b62105f1289a642d4d16",
+      "size": 1139,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/aa16497d95993253aa83b62105f1289a642d4d16"
+    },
+    {
+      "path": "src/components/parent-module/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e5dbcb5ac2147102fb55bb302ddad584e28f2d0",
+      "size": 767,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/9e5dbcb5ac2147102fb55bb302ddad584e28f2d0"
+    },
+    {
+      "path": "src/components/parent-module/module-classnames.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8980b1ee0ab761a6ae8bf634b0b2d340facae653",
+      "size": 514,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/8980b1ee0ab761a6ae8bf634b0b2d340facae653"
+    },
+    {
+      "path": "src/components/parent-module/module-script-data.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "884653128e8907cb49f468b3e114461d95d851b4",
+      "size": 549,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/884653128e8907cb49f468b3e114461d95d851b4"
+    },
+    {
+      "path": "src/components/parent-module/module.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47758bfc5383165963e61a9b3b2dfec149aeaab9",
+      "size": 7278,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/47758bfc5383165963e61a9b3b2dfec149aeaab9"
+    },
+    {
+      "path": "src/components/parent-module/module.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02c44085e86d84628fa55723fa8b617409f43dca",
+      "size": 64,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/02c44085e86d84628fa55723fa8b617409f43dca"
+    },
+    {
+      "path": "src/components/parent-module/styles.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f07a66ac9e3f6cac02d323329ed268e07b20adb9",
+      "size": 2290,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/f07a66ac9e3f6cac02d323329ed268e07b20adb9"
+    },
+    {
+      "path": "src/components/parent-module/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "267fcaeb6a0b7f89f6e8489c161837826f90cb93",
+      "size": 1624,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/267fcaeb6a0b7f89f6e8489c161837826f90cb93"
+    },
+    {
+      "path": "src/components/static-module",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "848cac7857a8d52a8988e4d52b19eb04b9caf6ad",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/848cac7857a8d52a8988e4d52b19eb04b9caf6ad"
+    },
+    {
+      "path": "src/components/static-module/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ab145231aa70969a0ce5d5995f4126a1e3edc86",
+      "size": 2942,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/9ab145231aa70969a0ce5d5995f4126a1e3edc86"
+    },
+    {
+      "path": "src/components/static-module/custom-css.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31f837592b97e590ac101fcd0095578a7f140240",
+      "size": 806,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/31f837592b97e590ac101fcd0095578a7f140240"
+    },
+    {
+      "path": "src/components/static-module/edit.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aa308153fb8f05e613f379e371e449d99f327d0",
+      "size": 1710,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/4aa308153fb8f05e613f379e371e449d99f327d0"
+    },
+    {
+      "path": "src/components/static-module/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d6b36a2782e95918e0f600b3cc4f2c2a8c97ef7",
+      "size": 1052,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/1d6b36a2782e95918e0f600b3cc4f2c2a8c97ef7"
+    },
+    {
+      "path": "src/components/static-module/module-classnames.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65694ae87e6930709e6e8b64aa6d7f71e4ae05c7",
+      "size": 508,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/65694ae87e6930709e6e8b64aa6d7f71e4ae05c7"
+    },
+    {
+      "path": "src/components/static-module/module-default-printed-style-attributes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88495a0e1a9caff94fde5e677a1929318aa51497",
+      "size": 505,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/88495a0e1a9caff94fde5e677a1929318aa51497"
+    },
+    {
+      "path": "src/components/static-module/module-default-render-attributes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a52c55596557f40ca9f9a629d0b25f2e5047f521",
+      "size": 1377,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/a52c55596557f40ca9f9a629d0b25f2e5047f521"
+    },
+    {
+      "path": "src/components/static-module/module-script-data.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1497b73422d96cdac7373aa3dc52f3127f4e3fbc",
+      "size": 549,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/1497b73422d96cdac7373aa3dc52f3127f4e3fbc"
+    },
+    {
+      "path": "src/components/static-module/module.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bef9898f7160e765505023a733a8faa0328b33c",
+      "size": 11295,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/8bef9898f7160e765505023a733a8faa0328b33c"
+    },
+    {
+      "path": "src/components/static-module/module.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac975fc78de1c6c6465c4eb322634f861db9ff7a",
+      "size": 1062,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/ac975fc78de1c6c6465c4eb322634f861db9ff7a"
+    },
+    {
+      "path": "src/components/static-module/placeholder-content.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d99bd74c54983b14eedb68d843048414fab6072",
+      "size": 565,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/4d99bd74c54983b14eedb68d843048414fab6072"
+    },
+    {
+      "path": "src/components/static-module/style.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19380520f794aeeea2e90da31196e01b64161301",
+      "size": 49,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/19380520f794aeeea2e90da31196e01b64161301"
+    },
+    {
+      "path": "src/components/static-module/styles.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "351f9ad301bda6b7946a726069f79946f92264d6",
+      "size": 2188,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/351f9ad301bda6b7946a726069f79946f92264d6"
+    },
+    {
+      "path": "src/components/static-module/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "067d6565781f3ea27837fa36d671f6fdc6ce67fa",
+      "size": 2844,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/067d6565781f3ea27837fa36d671f6fdc6ce67fa"
+    },
+    {
+      "path": "src/icons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e02660862b84406f4450a7464e1eebdf5c04a37a",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/e02660862b84406f4450a7464e1eebdf5c04a37a"
+    },
+    {
+      "path": "src/icons/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420206dcf6b3bb013b17d36991d5904fce5b43b8",
+      "size": 190,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/420206dcf6b3bb013b17d36991d5904fce5b43b8"
+    },
+    {
+      "path": "src/icons/module-d4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "428a5bdfd58fedcc9fdf55df1e48b2d8de1bbba9",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/428a5bdfd58fedcc9fdf55df1e48b2d8de1bbba9"
+    },
+    {
+      "path": "src/icons/module-d4/index.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0951e6b90337afa3dfa23f9fa4c9abb38ad7b1cf",
+      "size": 788,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/0951e6b90337afa3dfa23f9fa4c9abb38ad7b1cf"
+    },
+    {
+      "path": "src/icons/module-dynamic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2cd0c61e9acf1f5fba379a3c2e4ab0534a924bf8",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/2cd0c61e9acf1f5fba379a3c2e4ab0534a924bf8"
+    },
+    {
+      "path": "src/icons/module-dynamic/index.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "044e0c0f78e32158b0d9518664a27d4c75fc2b45",
+      "size": 377,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/044e0c0f78e32158b0d9518664a27d4c75fc2b45"
+    },
+    {
+      "path": "src/icons/module-parent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b788a5144456e694af8e9e142cb6690c44cd959e",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/b788a5144456e694af8e9e142cb6690c44cd959e"
+    },
+    {
+      "path": "src/icons/module-parent/index.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79d0c8873864e826b618052ea08e149b7e68c1ca",
+      "size": 469,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/79d0c8873864e826b618052ea08e149b7e68c1ca"
+    },
+    {
+      "path": "src/icons/module-static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9cb94f1b7567b70337956d715f54040ccc07622a",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/9cb94f1b7567b70337956d715f54040ccc07622a"
+    },
+    {
+      "path": "src/icons/module-static/index.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "172111a0527d313e4d1bf568d2b29b76b037d566",
+      "size": 393,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/172111a0527d313e4d1bf568d2b29b76b037d566"
+    },
+    {
+      "path": "src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53fdff1925a1f2fece6e875dc026f7c2b6aa8816",
+      "size": 924,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/53fdff1925a1f2fece6e875dc026f7c2b6aa8816"
+    },
+    {
+      "path": "src/module-icons.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae10bd0e944e6124cef325975af62d2f410c3355",
+      "size": 512,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/ae10bd0e944e6124cef325975af62d2f410c3355"
+    },
+    {
+      "path": "src/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "917b4b66164de2c48ec945b80a8200844ed919bb",
+      "size": 661,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/917b4b66164de2c48ec945b80a8200844ed919bb"
+    },
+    {
+      "path": "styles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0759ce001e89087970cbcd5344fc9dad577852e",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/c0759ce001e89087970cbcd5344fc9dad577852e"
+    },
+    {
+      "path": "styles/bundle.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a41dfe82b60c31c4754fd342f4e261dc70ed9d51",
+      "size": 4041,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/a41dfe82b60c31c4754fd342f4e261dc70ed9d51"
+    },
+    {
+      "path": "styles/vb-bundle.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd07bad7bfd52a906f10c5efacd353e076436e60",
+      "size": 576,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/bd07bad7bfd52a906f10c5efacd353e076436e60"
+    },
+    {
+      "path": "test-config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ce4f05ca535651d9b7121a6b4e2e82cee30fbf7",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/3ce4f05ca535651d9b7121a6b4e2e82cee30fbf7"
+    },
+    {
+      "path": "test-config/babel-transformer.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "731e1fd6b1fe2e4773a7a265425dd0662f59ae2b",
+      "size": 2195,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/731e1fd6b1fe2e4773a7a265425dd0662f59ae2b"
+    },
+    {
+      "path": "test-config/global-mocks.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08d061714f8cbebe5ce7793a7bd1c36ee2ce4866",
+      "size": 288,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/08d061714f8cbebe5ce7793a7bd1c36ee2ce4866"
+    },
+    {
+      "path": "test-config/jest.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dab2856a90e176c744a25d24bf4ee5fd2a4f12ad",
+      "size": 4516,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/dab2856a90e176c744a25d24bf4ee5fd2a4f12ad"
+    },
+    {
+      "path": "test-config/override-react-use-layout-effect.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fe6e64a731a57fe47be7710e11586008d23a5ce",
+      "size": 1402,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/3fe6e64a731a57fe47be7710e11586008d23a5ce"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b581ff45687713f8de0fec3b3120a9d98f519996",
+      "size": 273,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/b581ff45687713f8de0fec3b3120a9d98f519996"
+    },
+    {
+      "path": "webpack.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "709f4ec6251201098f9a2748fdd4491b6792d2d9",
+      "size": 7336,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/709f4ec6251201098f9a2748fdd4491b6792d2d9"
+    },
+    {
+      "path": "webpack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "63c24355e10fae365726e29c452247d114beeb4c",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/63c24355e10fae365726e29c452247d114beeb4c"
+    },
+    {
+      "path": "webpack/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9004c4eeefaa6c6095951789df8b4ad098d50cae",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/9004c4eeefaa6c6095951789df8b4ad098d50cae"
+    },
+    {
+      "path": "webpack/config/plugins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62c1bea226bc7a8280fd33e3e60edd6b633a6029",
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/trees/62c1bea226bc7a8280fd33e3e60edd6b633a6029"
+    },
+    {
+      "path": "webpack/config/plugins/conversion-outline-json-plugin.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16f7bdcdab1ac5ea0fefc955109388d0171950b2",
+      "size": 3553,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/16f7bdcdab1ac5ea0fefc955109388d0171950b2"
+    },
+    {
+      "path": "webpack/config/plugins/extract-static-properties.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5848c2298fb090b1f0fc222e2ff9b0b05f7e308b",
+      "size": 5116,
+      "url": "https://api.github.com/repos/elegantthemes/d5-extension-example-modules/git/blobs/5848c2298fb090b1f0fc222e2ff9b0b05f7e308b"
+    }
+  ],
+  "truncated": false
+}

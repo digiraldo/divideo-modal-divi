@@ -1,0 +1,583 @@
+{
+  "name": "divideo/divideo-modal",
+  "title": "DiVideo Modal",
+  "titles": "DiVideo Modals",
+  "category": "module",
+  "moduleClassName": "dvm_module",
+  "moduleOrderClassName": "dvm_module",
+  "d4Shortcode": "divideo_modal",
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "settings": {
+        "meta": {
+          "adminLabel": {}
+        },
+        "advanced": {
+          "link": {},
+          "text": {},
+          "htmlAttributes": {}
+        },
+        "decoration": {
+          "background": {},
+          "sizing": {},
+          "spacing": {},
+          "border": {},
+          "boxShadow": {},
+          "filters": {},
+          "transform": {},
+          "animation": {},
+          "overflow": {},
+          "disabledOn": {},
+          "transition": {},
+          "position": {},
+          "zIndex": {},
+          "scroll": {},
+          "sticky": {}
+        }
+      }
+    },
+    "videoSource": {
+      "type": "object",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "url"
+          }
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupVideo",
+            "priority": 10,
+            "render": true,
+            "attrName": "videoSource.innerContent",
+            "label": "Fuente del Vídeo",
+            "description": "Selecciona si el vídeo proviene de una URL externa (YouTube/Vimeo) o de la Biblioteca de Medios.",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/select",
+              "type": "field",
+              "props": {
+                "options": {
+                  "url": {
+                    "label": "URL (YouTube / Vimeo)"
+                  },
+                  "local": {
+                    "label": "Vídeo Local (MP4/WebM)"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "videoUrl": {
+      "type": "object",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          }
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupVideo",
+            "priority": 20,
+            "render": true,
+            "attrName": "videoUrl.innerContent",
+            "label": "URL del Vídeo (YouTube / Vimeo)",
+            "description": "Ingresa la URL del vídeo en YouTube o Vimeo.",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/text",
+              "type": "field",
+              "props": {
+                "placeholder": "https://www.youtube.com/watch?v=..."
+              }
+            }
+          }
+        }
+      }
+    },
+    "videoFile": {
+      "type": "object",
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupVideo",
+            "priority": 30,
+            "render": true,
+            "attrName": "videoFile.innerContent",
+            "label": "Archivo de Vídeo Local (MP4/WebM)",
+            "description": "Sube o selecciona un archivo de vídeo desde la Biblioteca de Medios.",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/upload",
+              "type": "field",
+              "props": {
+                "dataType": "video",
+                "chooseText": "Seleccionar Vídeo",
+                "uploadButtonText": "Subir Vídeo"
+              }
+            }
+          }
+        }
+      }
+    },
+    "autoplay": {
+      "type": "object",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupVideo",
+            "priority": 40,
+            "render": true,
+            "attrName": "autoplay.innerContent",
+            "label": "Reproducción Automática (Autoplay)",
+            "description": "Inicia la reproducción del vídeo automáticamente al abrir el modal.",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/toggle",
+              "type": "field"
+            }
+          }
+        }
+      }
+    },
+    "triggerType": {
+      "type": "object",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "button"
+          }
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupTrigger",
+            "priority": 10,
+            "render": true,
+            "attrName": "triggerType.innerContent",
+            "label": "Tipo de Activador",
+            "description": "Selecciona el elemento visual sobre el que se hace clic para abrir el vídeo.",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/select",
+              "type": "field",
+              "props": {
+                "options": {
+                  "button": {
+                    "label": "Botón"
+                  },
+                  "image": {
+                    "label": "Imagen con Play"
+                  },
+                  "icon": {
+                    "label": "Ícono Animado"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "buttonText": {
+      "type": "object",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "▶ Play Video"
+          }
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupTrigger",
+            "priority": 20,
+            "render": true,
+            "attrName": "buttonText.innerContent",
+            "label": "Texto del Botón",
+            "description": "Escribe el texto que aparecerá dentro del botón.",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/text",
+              "type": "field"
+            }
+          }
+        }
+      }
+    },
+    "triggerImageSrc": {
+      "type": "object",
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupTrigger",
+            "priority": 30,
+            "render": true,
+            "attrName": "triggerImageSrc.innerContent",
+            "label": "Imagen del Activador",
+            "description": "Sube una imagen miniatura para usarla como activador con botón Play superpuesto.",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/upload",
+              "type": "field",
+              "props": {
+                "dataType": "image",
+                "chooseText": "Seleccionar Imagen",
+                "uploadButtonText": "Subir Imagen",
+                "syncImageData": {
+                  "src": true,
+                  "id": true,
+                  "alt": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "triggerImageAlt": {
+      "type": "object",
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupTrigger",
+            "priority": 35,
+            "render": true,
+            "attrName": "triggerImageAlt.innerContent",
+            "label": "Texto Alternativo de la Imagen (Alt)",
+            "description": "Descripción accesible de la imagen para lectores de pantalla y SEO.",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/text",
+              "type": "field"
+            }
+          }
+        }
+      }
+    },
+    "triggerImageWidth": {
+      "type": "object",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "450px"
+          }
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupTrigger",
+            "priority": 38,
+            "render": true,
+            "attrName": "triggerImageWidth.innerContent",
+            "label": "Ancho de la Imagen del Activador",
+            "description": "Ajusta el ancho máximo de la imagen del activador (por ejemplo, 450px o 100%).",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/range",
+              "type": "field",
+              "props": {
+                "min": 50,
+                "max": 1400,
+                "step": 10,
+                "defaultValue": "450px",
+                "units": [
+                  "px",
+                  "%"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "iconStyle": {
+      "type": "object",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "circle_fill"
+          }
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupTrigger",
+            "priority": 40,
+            "render": true,
+            "attrName": "iconStyle.innerContent",
+            "label": "Estilo del Ícono de Play",
+            "description": "Selecciona una de las 5 variantes nativas de ícono de reproducción.",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/select",
+              "type": "field",
+              "props": {
+                "options": {
+                  "circle_fill": {
+                    "label": "Círculo Relleno"
+                  },
+                  "circle_outline": {
+                    "label": "Círculo Contorno"
+                  },
+                  "play_arrow": {
+                    "label": "Flecha Simple"
+                  },
+                  "rounded_rect": {
+                    "label": "Rectángulo (YouTube)"
+                  },
+                  "diamond": {
+                    "label": "Rombo / Escudo"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "iconColor": {
+      "type": "object",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "#6366f1"
+          }
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupTrigger",
+            "priority": 50,
+            "render": true,
+            "attrName": "iconColor.innerContent",
+            "label": "Color del Ícono",
+            "description": "Selecciona el color del ícono de reproducción.",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/color-picker",
+              "type": "field"
+            }
+          }
+        }
+      }
+    },
+    "iconSize": {
+      "type": "object",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "80px"
+          }
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupTrigger",
+            "priority": 60,
+            "render": true,
+            "attrName": "iconSize.innerContent",
+            "label": "Tamaño del Ícono",
+            "description": "Ajusta las dimensiones del ícono animado en píxeles.",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/range",
+              "type": "field",
+              "props": {
+                "min": 30,
+                "max": 200,
+                "step": 1,
+                "defaultValue": "80px",
+                "units": [
+                  "px"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "overlayColor": {
+      "type": "object",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "rgba(0,0,0,0.88)"
+          }
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupModal",
+            "priority": 10,
+            "render": true,
+            "attrName": "overlayColor.innerContent",
+            "label": "Color del Fondo (Overlay)",
+            "description": "Color y nivel de opacidad del fondo oscuro que cubre la pantalla al abrir el vídeo.",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/color-picker",
+              "type": "field",
+              "props": {
+                "alpha": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "modalMaxWidth": {
+      "type": "object",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "900px"
+          }
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupModal",
+            "priority": 20,
+            "render": true,
+            "attrName": "modalMaxWidth.innerContent",
+            "label": "Ancho Máximo del Modal",
+            "description": "Controla el ancho máximo del contenedor de vídeo (300px a 1600px).",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/range",
+              "type": "field",
+              "props": {
+                "min": 300,
+                "max": 1600,
+                "step": 10,
+                "defaultValue": "900px",
+                "units": [
+                  "px"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "showCloseButton": {
+      "type": "object",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupModal",
+            "priority": 30,
+            "render": true,
+            "attrName": "showCloseButton.innerContent",
+            "label": "Mostrar Botón Cerrar (X)",
+            "description": "Muestra un botón flotante para cerrar el modal de vídeo.",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "compon
