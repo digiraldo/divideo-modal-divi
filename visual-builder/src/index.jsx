@@ -49,24 +49,24 @@ const ButtonTrigger = ({ text, elements }) => {
       <elements.button.render
         className="et_pb_button dvm-trigger dvm-trigger--button dvm-vb-preview"
       >
-        {text || '▶ Play Video'}
+        {text || 'Play Video'}
       </elements.button.render>
     );
   }
   return (
     <div className="et_pb_button dvm-trigger dvm-trigger--button dvm-vb-preview">
-      {text || '▶ Play Video'}
+      {text || 'Play Video'}
     </div>
   );
 };
 
-const ImageTrigger = ({ src, alt, width, iconStyle, iconColor, iconSize }) => {
+const ImageTrigger = ({ src, alt, width, opacity, iconStyle, iconColor, iconSize }) => {
   const imageUrl = typeof src === 'object' && src !== null ? (src.src || '') : (src || '');
   const Icon = PlaySVGs[iconStyle] || PlaySVGs.circle_fill;
   return (
     <div className="dvm-trigger dvm-trigger--image dvm-vb-preview" style={{ maxWidth: width || '450px', width: '100%' }}>
       {imageUrl
-        ? <img src={imageUrl} alt={alt || ''} style={{ width: '100%', display: 'block' }} />
+        ? <img src={imageUrl} alt={alt || ''} style={{ width: '100%', display: 'block', opacity: opacity || '100%' }} />
         : <div className="dvm-img-placeholder">🖼 Imagen del Activador</div>
       }
       <span className="dvm-play-overlay">
@@ -92,6 +92,7 @@ const DiVideoModalEdit = ({ attrs, elements, id, name }) => {
   const imgSrc      = val(attrs, 'triggerImageSrc', null);
   const imgAlt      = val(attrs, 'triggerImageAlt', '');
   const imgWidth    = val(attrs, 'triggerImageWidth', '450px');
+  const imgOpacity  = val(attrs, 'triggerImageOpacity', '100%');
   const iconStyle   = val(attrs, 'iconStyle', 'circle_fill');
   const iconColor   = val(attrs, 'iconColor', '#ffffff');
   const iconSize    = val(attrs, 'iconSize', '64px');
@@ -103,6 +104,7 @@ const DiVideoModalEdit = ({ attrs, elements, id, name }) => {
           src={imgSrc}
           alt={imgAlt}
           width={imgWidth}
+          opacity={imgOpacity}
           iconStyle={iconStyle}
           iconColor={iconColor}
           iconSize={iconSize}

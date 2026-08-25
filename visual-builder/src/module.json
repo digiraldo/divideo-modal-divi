@@ -399,6 +399,47 @@
         }
       }
     },
+    "triggerImageOpacity": {
+      "type": "object",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "100%"
+          }
+        }
+      },
+      "settings": {
+        "innerContent": {
+          "groupType": "group-item",
+          "item": {
+            "groupSlug": "groupTrigger",
+            "priority": 39,
+            "render": true,
+            "attrName": "triggerImageOpacity.innerContent",
+            "label": "Opacidad / Transparencia de la Imagen",
+            "description": "Controla el nivel de transparencia de la imagen del activador (0% totalmente transparente, 100% opaca).",
+            "features": {
+              "sticky": false,
+              "dynamicContent": false,
+              "responsive": false
+            },
+            "component": {
+              "name": "divi/range",
+              "type": "field",
+              "props": {
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "defaultValue": "100%",
+                "units": [
+                  "%"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
     "iconStyle": {
       "type": "object",
       "default": {

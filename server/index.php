@@ -59,6 +59,7 @@ class DiVideoModal implements DependencyInterface {
 	$raw_img        = $attrs['triggerImageSrc']['innerContent']['desktop']['value'] ?? '';
 	$trigger_img    = is_array( $raw_img ) ? ( $raw_img['src'] ?? '' ) : ( is_string( $raw_img ) ? $raw_img : '' );
 	$trigger_img_w  = $attrs['triggerImageWidth']['innerContent']['desktop']['value'] ?? '450px';
+	$trigger_img_op = $attrs['triggerImageOpacity']['innerContent']['desktop']['value'] ?? '100%';
 	$icon_style     = $attrs['iconStyle']['innerContent']['desktop']['value']      ?? 'circle_fill';
 	$icon_color     = $attrs['iconColor']['innerContent']['desktop']['value']      ?? '#ffffff';
 	$icon_size      = $attrs['iconSize']['innerContent']['desktop']['value']       ?? '64px';
@@ -84,9 +85,10 @@ class DiVideoModal implements DependencyInterface {
 		case 'image':
 			$play_icon    = divideo_modal_get_play_svg( $icon_style, $icon_color, $icon_size );
 			$style_width  = $trigger_img_w ? 'style="max-width:' . esc_attr( $trigger_img_w ) . '; width:100%;"' : '';
+			$img_style    = ( ! empty( $trigger_img_op ) && '100%' !== $trigger_img_op ) ? 'style="opacity:' . esc_attr( $trigger_img_op ) . ';"' : '';
 			$trigger_html = '<div class="dvm-trigger dvm-trigger--image" ' . $style_width . ' data-dvm-uid="' . esc_attr( $uid ) . '" role="button" tabindex="0" aria-label="' . esc_attr__( 'Play video', 'divideo-modal-divi' ) . '">';
 			if ( $trigger_img ) {
-				$trigger_html .= '<img src="' . esc_url( $trigger_img ) . '" alt="' . esc_attr( $trigger_alt ) . '" loading="lazy">';
+				$trigger_html .= '<img src="' . esc_url( $trigger_img ) . '" alt="' . esc_attr( $trigger_alt ) . '" ' . $img_style . ' loading="lazy">';
 			}
 			$trigger_html .= '<span class="dvm-play-overlay">' . $play_icon . '</span>';
 			$trigger_html .= '</div>';
