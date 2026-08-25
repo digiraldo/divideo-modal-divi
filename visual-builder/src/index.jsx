@@ -43,14 +43,26 @@ const val = (attrs, key, fallback = '') =>
   attrs?.[key]?.innerContent?.desktop?.value ?? fallback;
 
 // ── Trigger Previews ─────────────────────────────────────────
-const ButtonTrigger = ({ text }) => (
-  <div className="dvm-trigger dvm-trigger--button dvm-vb-preview">
-    <span>{text || '▶ Play Video'}</span>
-  </div>
-);
+const ButtonTrigger = ({ text, elements }) => {
+  if (elements?.button?.render) {
+    return (
+      <elements.button.render
+        className="et_pb_button dvm-trigger dvm-trigger--button dvm-vb-preview"
+      >
+        {text || '▶ Play Video'}
+      </elements.button.render>
+    );
+  }
+  return (
+    <div className="et_pb_button dvm-trigger dvm-trigger--button dvm-vb-preview">
+      {text || '▶ Play Video'}
+    </div>
+  );
+};
 
-const ImageTrigger = ({ src, alt, width }) => {
+const ImageTrigger = ({ src, alt, width, iconStyle, iconColor, iconSize }) => {
   const imageUrl = typeof src === 'object' && src !== null ? (src.src || '') : (src || '');
+  const Icon = PlaySVGs[iconStyle] || PlaySVGs.circle_fill;
   return (
     <div className="dvm-trigger dvm-trigger--image dvm-vb-preview" style={{ maxWidth: width || '450px', width: '100%' }}>
       {imageUrl
@@ -58,7 +70,7 @@ const ImageTrigger = ({ src, alt, width }) => {
         : <div className="dvm-img-placeholder">🖼 Imagen del Activador</div>
       }
       <span className="dvm-play-overlay">
-        <PlaySVGs.circle_fill color="#fff" size="56px" />
+        <Icon color={iconColor || '#ffffff'} size={iconSize || '64px'} />
       </span>
     </div>
   );
@@ -82,13 +94,22 @@ const DiVideoModalEdit = ({ attrs, elements, id, name }) => {
   const imgWidth    = val(attrs, 'triggerImageWidth', '450px');
   const iconStyle   = val(attrs, 'iconStyle', 'circle_fill');
   const iconColor   = val(attrs, 'iconColor', '#ffffff');
-  const iconSize    = val(attrs, 'iconSize', '80px');
+  const iconSize    = val(attrs, 'iconSize', '64px');
 
   const renderTrigger = () => {
     switch (triggerType) {
-      case 'image': return <ImageTrigger src={imgSrc} alt={imgAlt} width={imgWidth} />;
+      case 'image': return (
+        <ImageTrigger
+          src={imgSrc}
+          alt={imgAlt}
+          width={imgWidth}
+          iconStyle={iconStyle}
+          iconColor={iconColor}
+          iconSize={iconSize}
+        />
+      );
       case 'icon':  return <IconTrigger style={iconStyle} color={iconColor} size={iconSize} />;
-      default:      return <ButtonTrigger text={buttonText} />;
+      default:      return <ButtonTrigger text={buttonText} elements={elements} />;
     }
   };
 

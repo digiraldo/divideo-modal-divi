@@ -38,6 +38,49 @@
         }
       }
     },
+    "button": {
+      "type": "object",
+      "selector": "{{selector}} .dvm-trigger--button, {{selector}} .et_pb_button",
+      "customPostTypeSelector": "body.et-db #page-container #et-boc .et-l {{baseSelector}} .dvm-trigger--button, body.et-db #page-container #et-boc .et-l {{baseSelector}} .et_pb_button",
+      "elementType": "button",
+      "supportsCustomAttributes": true,
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                  "color": true,
+                  "font-size": true,
+                  "letter-spacing": true,
+                  "line-height": true
+                }
+              }
+            }
+          }
+        },
+        "spacing": {
+          "important": true
+        }
+      },
+      "settings": {
+        "decoration": {
+          "button": {
+            "component": {
+              "props": {
+                "dynamicSubgroupHost": true
+              }
+            }
+          },
+          "font": {},
+          "background": {},
+          "border": {},
+          "boxShadow": {},
+          "spacing": {},
+          "sizing": {}
+        }
+      }
+    },
     "videoSource": {
       "type": "object",
       "default": {
@@ -374,7 +417,7 @@
             "render": true,
             "attrName": "iconStyle.innerContent",
             "label": "Estilo del Ícono de Play",
-            "description": "Selecciona una de las 5 variantes nativas de ícono de reproducción.",
+            "description": "Variante de diseño del ícono (se aplica tanto a la 'Imagen con Play' como al 'Ícono Animado').",
             "features": {
               "sticky": false,
               "dynamicContent": false,
@@ -412,7 +455,7 @@
       "default": {
         "innerContent": {
           "desktop": {
-            "value": "#6366f1"
+            "value": "#ffffff"
           }
         }
       },
@@ -424,8 +467,8 @@
             "priority": 50,
             "render": true,
             "attrName": "iconColor.innerContent",
-            "label": "Color del Ícono",
-            "description": "Selecciona el color del ícono de reproducción.",
+            "label": "Color del Ícono de Play",
+            "description": "Color del ícono de reproducción (aplica tanto a la 'Imagen con Play' como al 'Ícono Animado').",
             "features": {
               "sticky": false,
               "dynamicContent": false,
@@ -444,7 +487,7 @@
       "default": {
         "innerContent": {
           "desktop": {
-            "value": "80px"
+            "value": "64px"
           }
         }
       },
@@ -456,8 +499,8 @@
             "priority": 60,
             "render": true,
             "attrName": "iconSize.innerContent",
-            "label": "Tamaño del Ícono",
-            "description": "Ajusta las dimensiones del ícono animado en píxeles.",
+            "label": "Tamaño del Ícono de Play",
+            "description": "Dimensiones del ícono en píxeles (aplica tanto a la 'Imagen con Play' como al 'Ícono Animado').",
             "features": {
               "sticky": false,
               "dynamicContent": false,
@@ -467,10 +510,10 @@
               "name": "divi/range",
               "type": "field",
               "props": {
-                "min": 30,
+                "min": 24,
                 "max": 200,
                 "step": 1,
-                "defaultValue": "80px",
+                "defaultValue": "64px",
                 "units": [
                   "px"
                 ]

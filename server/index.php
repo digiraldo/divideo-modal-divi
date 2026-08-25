@@ -82,7 +82,7 @@ class DiVideoModal implements DependencyInterface {
 	// ── Build trigger HTML ─────────────────────────────────
 	switch ( $trigger_type ) {
 		case 'image':
-			$play_icon    = divideo_modal_get_play_svg( 'circle_fill', '#ffffff', '56px' );
+			$play_icon    = divideo_modal_get_play_svg( $icon_style, $icon_color, $icon_size );
 			$style_width  = $trigger_img_w ? 'style="max-width:' . esc_attr( $trigger_img_w ) . '; width:100%;"' : '';
 			$trigger_html = '<div class="dvm-trigger dvm-trigger--image" ' . $style_width . ' data-dvm-uid="' . esc_attr( $uid ) . '" role="button" tabindex="0" aria-label="' . esc_attr__( 'Play video', 'divideo-modal-divi' ) . '">';
 			if ( $trigger_img ) {
@@ -100,9 +100,9 @@ class DiVideoModal implements DependencyInterface {
 
 		case 'button':
 		default:
-			$trigger_html = '<div class="dvm-trigger dvm-trigger--button" data-dvm-uid="' . esc_attr( $uid ) . '" role="button" tabindex="0" aria-label="' . esc_attr__( 'Play video', 'divideo-modal-divi' ) . '">';
-			$trigger_html .= '<span>' . esc_html( $button_text ) . '</span>';
-			$trigger_html .= '</div>';
+			$trigger_html = '<a href="#" class="et_pb_button dvm-trigger dvm-trigger--button" data-dvm-uid="' . esc_attr( $uid ) . '" role="button" tabindex="0" aria-label="' . esc_attr__( 'Play video', 'divideo-modal-divi' ) . '">';
+			$trigger_html .= esc_html( $button_text );
+			$trigger_html .= '</a>';
 			break;
 	}
 
